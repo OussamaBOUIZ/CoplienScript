@@ -14,7 +14,7 @@ class ${CLASSNAME} {\\n
 };\\n\\n#endif"
 
 CIMP="
-#include ${FILENAME}\\n\\n${CLASSNAME}::${CLASSNAME} ( void ) {\\n\\n}\\n\\n\
+#include \"${FILENAME}\"\\n\\n${CLASSNAME}::${CLASSNAME} ( void ) {\\n\\n}\\n\\n\
 ${CLASSNAME}::~${CLASSNAME} ( void ) {\\n\\n}\\n\\n\
 ${CLASSNAME}::${CLASSNAME} ( const ${CLASSNAME} &obj ) {\\n\\n}\\n\\n\
 const ${CLASSNAME} &${CLASSNAME}::operator= ( const ${CLASSNAME} &obj ) {\\n\\n}\\n\\n"
